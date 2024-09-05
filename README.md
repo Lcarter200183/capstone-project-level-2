@@ -10,7 +10,9 @@ gh auth login
 git config user.name "Lcarter200183"
 git config user.email "Lcarter200183@yahoo.com"
 git push -u origin main
-//ADD changes of all files
+//ADD CHANGES OF ALL FILES
 git add . 
+//ATTACHED DESCRIPTION TO THE SAVE POINT -MEMO
 git comit -m "I added info to the README file"
+//MAKE FILE
 git push origin main
