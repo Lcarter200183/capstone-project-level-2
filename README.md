@@ -14,6 +14,6 @@ git push -u origin main
 //ADD CHANGES OF ALL FILES
 git add . 
 //ATTACHED DESCRIPTION TO THE SAVE POINT -MEMO
-git comit -m "I added info to the README file"
+git commit -m "I added info to the README file"
 //MAKE FILE
 git push origin main
