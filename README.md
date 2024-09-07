@@ -35,3 +35,12 @@ git remote add origin https://github.com/Lcarter
 
 //CHANGE THE VALUE OF ORIGIN VARIABLE
 git remotte set-url origin https://github.com/Lcarter200183
+
+//ACTIVATE OR INITIALIZE GIT SOURCE CONTROL
+git init
+
+//RENAMES THE CURRENT NAME TO MAIN
+git branch -M main
+
+//GET THE CURRENT VERSION OF GIT
+git --version
