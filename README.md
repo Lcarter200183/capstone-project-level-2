@@ -25,9 +25,17 @@ git add .
 //CREATE A SAVE POINT AND ATTACHED A MEMO DESCRIPTION  -MEMO 2
 git commit -m "I added info to the README file"
 
+//PUSHES CHANGES TOTHE ORIGIN'S MAIN BRANCH AND SAVES THE PARAMETERS
+git push -u origin main
+
 //SYNC CHANGES TO GITHUB 1
-git push origin main
-git push 1
+git push 
+
+//VS CODE SAVE COPY THE FILES FROM GITHUB
+git pull --set-upstream  origin main
+
+//COPY FILES FROM GITHUB WITH DEFAULT PARAMETERS VS CODE
+git pull
 
 //VIEW THE VALUE OF ORIGIN
 got remote -v
