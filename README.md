@@ -11,11 +11,18 @@ gh auth login
 git config user.name "Lcarter200183"
 git config user.email "Lcarter200183@yahoo.com"
 git push -u origin main
+
+//PRESS ENTER TO SELECT ALL THE DEFAULT. REMINDER TO COPY DEVICE LINK AND ENTER CODE
+gh auth login
+
 //ADD CHANGES THAT MADE TO THE README FILE
 git add README.md
-//ADD CHANGES THAT WERE MADE TO ALL FILES
+
+//ADD CHANGES THAT WERE MADE TO ALL FILES AND FOLDERS
 git add . 
-//ATTACHED DESCRIPTION TO THE SAVE POINT -MEMO
+
+//CREATE A SAATTACHED DESCRIPTION TO THE SAVE POINT -MEMO
 git commit -m "I added info to the README file"
-//MAKE FILE
+
+//SYNC FILES TO GITHUB 
 git push origin main
