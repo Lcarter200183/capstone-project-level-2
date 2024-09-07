@@ -4,7 +4,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Lcarter200183/styleup-multipage-3le03l0iked03pwoujt9oei0e9prigk9eire03jiek.git
+git remote add origin https://github.com/Lcarter200183/styleup-multipage3le03l0iked03pwoujt9oei0e9prigk9eire03jiek.git
 curl -sS https://webi.sh/gh | sh
 //PRESS ENTER TO SELECT ALL THE DEFAULTS. REMEMDER TO COPY DEVICE LINK AND ENTER CODE
 gh auth login
@@ -21,8 +21,11 @@ git add README.md
 //ADD CHANGES THAT WERE MADE TO ALL FILES AND FOLDERS
 git add . 
 
-//CREATE A SAATTACHED DESCRIPTION TO THE SAVE POINT -MEMO
+//CREATE A SAVE POINT AND ATTACHED A MEMO DESCRIPTION  -MEMO
 git commit -m "I added info to the README file"
 
-//SYNC FILES TO GITHUB 
+//SYNC CHANGES TO GITHUB 
 git push origin main
+
+//VIEW THE VALUE OF ORIGIN
+got remote -v
