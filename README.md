@@ -25,7 +25,7 @@ git add .
 //CREATE A SAVE POINT AND ATTACHED A MEMO DESCRIPTION  -MEMO 2
 git commit -m "I added info to the README file"
 
-//PUSHES CHANGES TOTHE ORIGIN'S MAIN BRANCH AND SAVES THE PARAMETERS
+//PUSHES CHANGES TO THE ORIGIN'S MAIN BRANCH AND SAVES THE PARAMETERS
 git push -u origin main
 
 //SYNC CHANGES TO GITHUB 1
@@ -37,14 +37,14 @@ git pull --set-upstream  origin main
 //COPY FILES FROM GITHUB WITH DEFAULT PARAMETERS VS CODE
 git pull
 
-//VIEW THE VALUE OF ORIGIN
+//VIEW THE VALUE OF ORIGIN AND THE URL OF OTHER REMOTE REPOSITORIES
 got remote -v
 
 //ASSIGNS A URL TO THE ORIGIN VARIABLE
 git remote add origin https://github.com/Lcarter
 
-//CHANGE THE VALUE OF ORIGIN VARIABLE
-git remotte set-url origin https://github.com/Lcarter200183
+//CHANGE THE VALUE OF ORIGIN VARIABLE 
+git remote set-url origin https://github.com/Lcarter200183
 
 //ACTIVATE OR INITIALIZE GIT SOURCE CONTROL
 git init
