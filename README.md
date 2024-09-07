@@ -29,3 +29,9 @@ git push origin main
 
 //VIEW THE VALUE OF ORIGIN
 got remote -v
+
+//ASSIGNS A URL TO THE ORIGIN VARIABLE
+git remote add origin https://github.com/Lcarter
+
+//CHANGE THE VALUE OF ORIGIN VARIABLE
+git remotte set-url origin https://github.com/Lcarter200183
