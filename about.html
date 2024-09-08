@@ -24,8 +24,7 @@
     <main clss="container">
       <u><h2>ABOUT</h2></u>
       <div class="card">
-        <img class="card-img-top"
-      src="https://assets.unileversolutions.com/recipes-v3/243781-default.png?im=AspectCrop=(720,459);Resize=(720,459)"
+        <img class="card-img-top" src="https://assets.unileversolutions.com/recipes-v3/243781-default.png?im=AspectCrop=(720,459);Resize=(720,459)"
     />
       <div class="card body">
         <h3 class="card-title">Cheesy Chicken Broccoli Bake</h3>
@@ -33,7 +32,13 @@
         </div>
       </div>
       <script>
-        const card1 =()
+        const card1 = {};
+        card1.src = 
+          "https://assets.unileversolutions.com/recipes-v3/243781-default.png?im=AspectCrop=(720,459);Resize=(720,459)"
+        card1.title = "Cheesy Chicken Broccoli Bake";
+        let card1String = '<div class="card">';
+        card1String = card1String + '<img class="card-img-top" src="https://assets.unileversolutions.com/recipes-v3/243781-default.png?im=AspectCrop=(720,459);Resize=(720,459)"
+    />'
       </script>
     </main>
   </body>
