@@ -1,9 +1,7 @@
-.row {
- padding:1px;
- margin:1px; 
-}
 
-.column {
-  padding:1px;
-  margin:1px;
+body {
+  background-color:FloralWhite;
+}
+.border {
+  width:100px;
 }
