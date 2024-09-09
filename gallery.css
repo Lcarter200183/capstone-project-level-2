@@ -2,6 +2,8 @@
 body {
   background-color:YellowGreen;
 }
-h2:hover {
-  background-color:purple;
+.row {
+  background-color:MediumPurple;
+  border-radius:2vw;
+  
 }
