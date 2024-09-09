@@ -1,9 +1,9 @@
 .row {
- width:100%;
- padding:3px;  
+ padding:1px;
+ margin:1px; 
 }
 
 .column {
-  width:100%;
-  padding:3px;
+  padding:1px;
+  margin:1px;
 }
