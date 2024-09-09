@@ -3,9 +3,11 @@ body {
 }
 
 .row {
-  padding: 0 4px;  
+  width: 200px;
+  height: 200px;
 }
 
 .column {
-  padding: 0  4px;
+  margin-left:
+  height:200px;
 }
