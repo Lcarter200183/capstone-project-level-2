@@ -1,3 +1,11 @@
 body {
   background-color:BlueViolet;
 }
+
+.row {
+  padding: 0 4px;  
+}
+
+.column {
+  padding: 0  4px;
+}
