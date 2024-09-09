@@ -2,12 +2,12 @@ body {
   background-color:BlueViolet;
 }
 
-.row style {
+.row {
  width:100%;
- padding:5px;  
+ padding:3px;  
 }
 
 .column {
   width:100%;
-  padding:5px;
+  padding:3px;
 }
