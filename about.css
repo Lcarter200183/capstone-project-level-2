@@ -1,3 +1,6 @@
-main {
-  text-align:center;
+h2:hover {
+ background-color:orange; 
+}
+h3:hover {
+ background-color:green; 
 }
