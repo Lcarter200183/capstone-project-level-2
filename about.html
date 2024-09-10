@@ -25,12 +25,13 @@
     <h2>Loops</h2>
     debugger;
     <script>
-      myCount = 6;
+      myCount = 0;
      do {
-       document.write(myCount);
        myCount++;
-     while (myCount !== 7);  
-     } 
+       document.write(myCount);
+       isDone = myCount === 3;
+     } while (!isDone);  
+     
     </script>
     
     
