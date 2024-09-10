@@ -3,4 +3,5 @@ h2:hover {
 }
 h3:hover {
  background-color:green; 
+ font-style:italic; 
 }
