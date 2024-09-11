@@ -10,12 +10,19 @@
     <title><h1>Venue</h1></title>
     <script src="utility-functions.js"></script>
     <style>
-      
       h2:hover {
-        backgroung-color: yellow;
+        background-color: pink;
+      }
+      h3:hover {
+        background-color: yellow;
       }
       h4:hover {
         background-color: orange;
+      }
+      form {
+        text-align: center;
+      }
+      footer { text-align: center;
       }
     </style>
   </head>
@@ -46,23 +53,22 @@
     <h3>Loops</h3>
 
     <h4><u>do while</u></h4>
+    <script>
     myCount = 0;
      do {
             myCount++;
           document.write(myCount);
             isDone = myCount === 3;
-      } while (!isDone);
-
-
-
-     }   
-
+      } while (!isDone);  
+    </script>
+    <br>
     <h4><u>"for"</u></h4>
     <script>
       for (count = 0; count <= 50; count = count + 10)
         document.write(count + "<br>");
     </script>
-
+    <br>
+    
     <u><h4>while</h4></u>
     <script>
      
@@ -103,8 +109,8 @@ while (myCount <= 100) {
     <script>
       animalList = ["cat", "dog", "bird"];
       position = 2;
-      document.write(animalList[0]);
-      document.write(animalList[1]);
+      document.write(animalList[0] + "<br>");
+      document.write(animalList[1] + "<br>"); 
       document.write(animalList[2]);
     </script>
 
@@ -130,13 +136,13 @@ while (myCount <= 100) {
       mainTag.innerHTML = card1String;
     </script>
 
-    <h5 style="text-align: center">Rate my website</h5>
-    <br />
+    <h5>Rate my website</h4>
+  
     <form>
       <input type="radio" name="group 1" /><label>👍🏾</label>
       <input type="radio" name="group 1" /><label>👎🏾</label>
     </form>
-
-    <footer style="text-align: center">Website created by Lydia</footer>
+     
+    <footer>Website created by Lydia</footer>
   </body>
 </html>
