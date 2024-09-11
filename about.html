@@ -22,7 +22,9 @@
       form {
         text-align: center;
       }
-      footer { text-align: center;
+      footer,
+      h5 {
+        text-align: center;
       }
     </style>
   </head>
@@ -41,44 +43,40 @@
           <a class="nav-link text-danger active" href="about.html">ABOUT</a>
         </nav>
       </div>
-      
     </header>
     <div class="alert alert-danger alert-dismissible">
       <span class="spinner-grow text-sucess"></span>
       Check out what I've learned.
       <button class="btn-close" data-bs-dismiss="alert"></button>
     </div>
-<h2><i>About</i></h2>
+    <h2><i>About</i></h2>
     <hr />
     <h3>Loops</h3>
 
     <h4><u>do while</u></h4>
     <script>
-    myCount = 0;
-     do {
-            myCount++;
-          document.write(myCount);
-            isDone = myCount === 3;
-      } while (!isDone);  
+      myCount = 0;
+      do {
+        myCount++;
+        document.write(myCount);
+        isDone = myCount === 3;
+      } while (!isDone);
     </script>
-    <br>
+    <br />
     <h4><u>"for"</u></h4>
     <script>
       for (count = 0; count <= 50; count = count + 10)
         document.write(count + "<br>");
     </script>
-    <br>
-    
+    <br />
+
     <u><h4>while</h4></u>
     <script>
-     
-myCount = 0;
-while (myCount <= 100) {
-   document.write(myCount);
-   myCount = myCount + 5;
-  
-} 
-      
+      myCount = 0;
+      while (myCount <= 100) {
+        document.write(myCount);
+        myCount = myCount + 5;
+      }
     </script>
     <hr />
 
@@ -110,7 +108,7 @@ while (myCount <= 100) {
       animalList = ["cat", "dog", "bird"];
       position = 2;
       document.write(animalList[0] + "<br>");
-      document.write(animalList[1] + "<br>"); 
+      document.write(animalList[1] + "<br>");
       document.write(animalList[2]);
     </script>
 
@@ -136,13 +134,13 @@ while (myCount <= 100) {
       mainTag.innerHTML = card1String;
     </script>
 
-    <h5>Rate my website</h4>
-  
+    <h5>Rate my website</h5>
+
     <form>
       <input type="radio" name="group 1" /><label>👍🏾</label>
       <input type="radio" name="group 1" /><label>👎🏾</label>
     </form>
-     
+
     <footer>Website created by Lydia</footer>
   </body>
 </html>
