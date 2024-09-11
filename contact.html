@@ -1,4 +1,4 @@
-d<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <link
@@ -8,6 +8,11 @@ d<!DOCTYPE html>
       crossorigin="anonymous"
     />
     <title><h1>The Venue</h1></title>
+    <style>
+      #message, #email {
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -17,20 +22,20 @@ d<!DOCTYPE html>
         alt="outside of building"
       />
       <div class="bg-warning fs-6 p-2 m-2">
-      <nav class="nav nav-tab nav-underline nav-fill">
-        <a class="nav-link text-danger" href="index.html">HOME</a>
-        <a class="nav-link text-danger" href="gallery.html">GALLERY</a>
-        <a class="nav-link text-danger active" href="contact.html">CONTACT</a>
-        <a class="nav-link text-danger" href="about.html">ABOUT</a>
-      </nav>
-     </div> 
+        <nav class="nav nav-tab nav-underline nav-fill">
+          <a class="nav-link text-danger" href="index.html">HOME</a>
+          <a class="nav-link text-danger" href="gallery.html">GALLERY</a>
+          <a class="nav-link text-danger active" href="contact.html">CONTACT</a>
+          <a class="nav-link text-danger" href="about.html">ABOUT</a>
+        </nav>
+      </div>
     </header>
     <main class="container">
       <u><h2>Contact</h2></u>
       <form>
         <label for="email">Email:</label><br />
-        <input type="text" id="email"><br>
-        <label for="message">Message:</label><br>
+        <input type="text" id="email" /><br />
+        <label for="message">Message:</label><br />
         <textarea id="message"></textarea>
 
         <p>
