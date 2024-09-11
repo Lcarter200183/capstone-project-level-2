@@ -8,7 +8,6 @@
       crossorigin="anonymous"
     />
     <title><h1>Venue</h1></title>
-   <link href="styles.css" rel="stylesheet"/>
     <script src="utility-functions.js"></script>
     <style>
       h2:hover {
@@ -79,20 +78,17 @@
         myCount = myCount + 5;
       }
     </script>
-   <br>
-   
+    <br />
+
     <u><h4>if else</h4></u>
     <script>
-    if (result = 6) {
-      document.write("x is < y");
-   } else {
-     document.write("x is !< y");
-   }
-      
-      
-      
+      if ((result = 6)) {
+        document.write("x is < y");
+      } else {
+        document.write("x is !< y");
+      }
     </script>
-    
+
     <hr />
 
     <h2>DATA TYPE</h2>
@@ -117,8 +113,7 @@
       result = typeof myVariable;
       document.write(result);
     </script>
-    
-    
+
     <u><h4>Array</h4></u>
     <script>
       animalList = ["cat", "dog", "bird"];
@@ -153,10 +148,11 @@
     <h5>Rate my Website</h5>
 
     <form>
-      <input type="radio" name="group 1" /><label>👍🏾</label>
-      <input type="radio" name="group 1" /><label>👎🏾</label>
+      <input type="radio" name="group 1" /><label for="Thumbs up">👍🏾</label>
+      <input type="radio" name="group 1" /><label for="Thumbs down">👎🏾</label
+      ><br />
+      <input type="button" value="Submit" onclick="msg()" />
     </form>
-
     <footer>Website created by Lydia Carter</footer>
   </body>
 </html>
