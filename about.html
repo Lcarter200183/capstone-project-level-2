@@ -10,12 +10,12 @@
     <title><h1>Venue</h1></title>
     <script src="utility-functions.js"></script>
     <style>
-      body {
+      body, form, footer, h5 {
         text-align: center;
       }
       h2:hover {
         background-color: pink;
-        font-weight: italic;
+        
       }
       h3:hover {
         background-color: yellow;
@@ -23,12 +23,6 @@
       }
       h4:hover {
         background-color: orange;
-      }
-      form {
-        text-align: center;
-      }
-      footer, h5 {
-        text-align: center;
       }
     </style>
   </head>
@@ -48,6 +42,7 @@
         </nav>
       </div>
     </header>
+    <article>
     <div class="alert alert-danger alert-dismissible">
       <span class="spinner-grow text-sucess"></span>
       Check out what I've learned.
@@ -148,7 +143,7 @@
       card1String = card1String + "</div>";
       mainTag.innerHTML = card1String;
     </script>
-
+    </article>
     <h5>Rate my Website</h5>
 
     <form>
