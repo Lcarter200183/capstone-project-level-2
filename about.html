@@ -44,13 +44,7 @@
       </div>
     </header>
     <article>
-      <script>
-        function runFunction1() {
-        myOutput.innerHTML("Welcome")  
-        }
-      <button onclick="runFunction1()">Click here to run Problem 1</button>
-      <button onclick="runFunction2()">Click here to run Problem 2</button>
-      </script>
+     
       <div class="alert alert-danger alert-dismissible">
         <span class="spinner-grow text-sucess"></span>
         Check out what I've learned.
@@ -151,8 +145,23 @@
         card1String = card1String + "</div>";
         mainTag.innerHTML = card1String;
       </script>
+      <hr>
+       <script>
+        function runFunction1() {
+        myOutput.innerHTML = "Thanks for coming";  
+        }
+        function runFunction2() {
+        myOutput.innerHTML = "Hope you enjoyed my website";  
+        }
+      </script> 
+      <button onclick="runFunction1()">Click here to run Problem 1</button>
+      <br>
+      <button onclick="runFunction2()">Click here to run Problem 2</button>
       
+      <div id="myOutput">Insert output here</div>
+      <div id="myOutput">Insert output here</div>
     </article>
+    <hr>
     <h5>Rate my Website</h5>
 
     <form>
