@@ -1,0 +1,12 @@
+body, form, footer, h5 {
+        text-align: center;
+      }
+      h2:hover {
+        background-color: pink;
+      }
+      h3:hover {
+        background-color: yellow;
+      }
+      h4:hover {
+        background-color: orange;
+      }
