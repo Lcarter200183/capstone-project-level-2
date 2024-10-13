@@ -12,14 +12,13 @@ git remote add origin https://github.com/Lcarter200183/styleup-multipage-3le03l0
 
 git pull origin main
 
-
--pushing to Gtihub for the first time
+PUSHING TO GITHUB FOR THE FIRST TIME
 
 gh auth login 
 
 -connects the project to Github
 
-git remote set-url origin
+git remote set-url origin https://github.com/Lcarter200183/capstone-project-level-2
 
 git push --set-upstream origin main
 
@@ -29,5 +28,14 @@ PUSHES TO GITHUB IN GENERAL
 
 git add .
 git commit -m "the changes I made"
-
+git push
 something
+
+IF BRANCH IS MASTER
+
+git branch -M main
+- RENAME the branch from master to main
+
+ git add .
+ git commit -m "renamed the branch"
+ git push --set-upstream origin main
