@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 function myprocessForm(event) {
     event.preventDefault();
     const form = event.target;
@@ -43,4 +41,3 @@ function datetimeForm(event) {
     output("We have recieved your appointment.<br>");
 
 }
->>>>>>> processingForPhoneAppountments
