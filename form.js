@@ -38,6 +38,4 @@ function datetimeForm(event) {
     const datetimeform = event.target;
     const datetimeInput = datetimeform[0];
     const datetimevalue = datetimeInput.value;
-    output("We have recieved your appointment.<br>");
-
-}
+    output("We have recieved your appointment.<br>)
