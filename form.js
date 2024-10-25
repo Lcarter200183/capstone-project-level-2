@@ -1,5 +1,4 @@
 function myprocessForm(event) {
-    debugger;
     event.preventDefault();
     const form = event.target;
     const input = form(0);
