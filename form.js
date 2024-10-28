@@ -1,4 +1,5 @@
 function myprocessForm(event) {
+    debugger;
     event.preventDefault();
     const form = event.target;
     const input = form(0);
@@ -29,7 +30,7 @@ function numberForm(event) {
     const numberform = event.target;
     const numberInput = phoneform[0];
     const numberValue = numberInput.value;
-    output("Your phone number was recieved.<br>")
+    output("Your phone number was recieved.<br>");
 
 }
 
@@ -38,4 +39,5 @@ function datetimeForm(event) {
     const datetimeform = event.target;
     const datetimeInput = datetimeform[0];
     const datetimevalue = datetimeInput.value;
-    output("We have recieved your appointment.<br>)
+    output("We have recieved your appointment.<br>");
+}
