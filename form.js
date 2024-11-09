@@ -1,18 +1,37 @@
 function myprocessForm(event) {
-    debugger;
     event.preventDefault();
     const form = event.target;
-    const input = form(0);
+    const input = form[0];
     const value = input.value;
-    output("Form Processed");
+    let outputElement = document.getElementById("confirmationMessage1");
+
+    if (!outputElement) {
+        outputElement = document.createElement("p");
+        outputElement.id = "confirmationMessage1";
+        outputElement.style.color = "green";
+        form.appendChild(outputElement);
+    }
+
+    outputElement.innerHTML = `Your appointment has been submitted successfully!`;
+    outputElement.style.display = "block";
 }
 
 function emailForm(event) {
-    event.preventDefalt();
-    const emailform = event.target;
-    const emailInput = form[0];
+    event.preventDefault();
+    const emailForm = event.target;
+    const emailInput = emailForm[0];
     const emailvalue = emailInput.value;
-    output("we recieved your info.");
+    let outputElement = document.getElementById("confirmationMessage2");
+
+    if (!outputElement) {
+        outputElement = document.createElement("p");
+        outputElement.id = "confirmationMessage2";
+        outputElement.style.color = "green";
+        form.appendChild(outputElement);
+    }
+
+    outputElement.innerHTML = `Your appointment has been submitted successfully!`;
+    outputElement.style.display = "block";
 
 }
 
@@ -22,16 +41,35 @@ function nameForm(event) {
     const firstnameInput = form[0];
     const lastnameInput = form[1];
     const firstnamevalue = firstnameInput.value;
-    output("Your first name is ${firstname} .<br>");
+    let outputElement = document.getElementById("confirmationMessage3");
+
+    if (!outputElement) {
+        outputElement = document.createElement("p");
+        outputElement.id = "confirmationMessage3";
+        outputElement.style.color = "green";
+        form.appendChild(outputElement);
+    }
+
+    outputElement.innerHTML = `Your appointment has been submitted successfully!`;
+    outputElement.style.display = "block";
 }
 
 function numberForm(event) {
-    event.preventDefault()
+    event.preventDefault();
     const numberform = event.target;
-    const numberInput = phoneform[0];
+    const numberInput = numberform[0];
     const numberValue = numberInput.value;
-    output("Your phone number was recieved.<br>");
+    let outputElement = document.getElementById("confirmationMessage3");
 
+    if (!outputElement) {
+        outputElement = document.createElement("p");
+        outputElement.id = "confirmationMessage3";
+        outputElement.style.color = "green";
+        form.appendChild(outputElement);
+    }
+
+    outputElement.innerHTML = `Your appointment has been submitted successfully!`;
+    outputElement.style.display = "block";
 }
 
 function datetimeForm(event) {
@@ -39,5 +77,15 @@ function datetimeForm(event) {
     const datetimeform = event.target;
     const datetimeInput = datetimeform[0];
     const datetimevalue = datetimeInput.value;
-    output("We have recieved your appointment.<br>");
+    let outputElement = document.getElementById("confirmationMessage3");
+
+    if (!outputElement) {
+        outputElement = document.createElement("p");
+        outputElement.id = "confirmationMessage3";
+        outputElement.style.color = "green";
+        form.appendChild(outputElement);
+    }
+
+    outputElement.innerHTML = `Your appointment has been submitted successfully!`;
+    outputElement.style.display = "block";
 }
