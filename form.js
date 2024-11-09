@@ -18,11 +18,11 @@ function emailForm(event) {
 
 function nameForm(event) {
     event.preventDefault();
-    const nameform = event.target;
+    const form = event.target;
     const firstnameInput = form[0];
     const lastnameInput = form[1];
     const firstnamevalue = firstnameInput.value;
-    output("Your first name is ${firstname}.<br>");
+    output("Your first name is ${firstname} .<br>");
 }
 
 function numberForm(event) {
