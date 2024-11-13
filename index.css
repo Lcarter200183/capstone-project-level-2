@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(138, 43, 226);
+  font-family: "Kleader";
+}
+
+p code {
+  font-family: "fantasy";
+}
+
+@font-face {
+  font-family: "Kleader";
+  src: url("Kleader.ttf");
+}
+pre code {
+  color: red;
+}
+
+p {
+  background-color: rgb(0, 170, 255);
+}
+
+h2,
+a,
+nav {
+  font-family: "Kleader";
+}
+
+pre code {
+  font-family: "Kleader";
+}
