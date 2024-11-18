@@ -13,9 +13,3 @@ function convertCard(cardObject) {
 function output(message) {
     output.innerHTML += message;
 }
-
-
-function runFunction1() {
-    myVariable = myOutput.innerHTML;
-    myOutput.innerHTML = "Clik here for question.";
-}
