@@ -11,5 +11,5 @@ function convertCard(cardObject) {
 
 
 function output(message) {
-    output.innerHTML += message;
+    outputTag.innerHTML += message;
 }
