@@ -70,13 +70,33 @@
             <form onsubmit="emailForm(event)">
                 <input required name="email" type="email" placeholder="Email Input" id="email" />
                 <br>
-                <input name="text" type="text" placeholder="Summery of Issue" id="text" />
-
+                <input required name="text" type="text" placeholder="Summery of Issue" id="text" />
                 <br>
                 <input type="submit" value="Submit" />
             </form>
             <br>
 
+<<<<<<< HEAD
+=======
+            <h3>Submit Appointment</h3>
+
+            <form onsubmit="nameForm(event)">
+                <input required name="firstName" type="name" placeholder="First Name" id="firstname" />
+                <input required name="lastName" type="name" placeholder="Last Name" id="lastname" />
+                <br>
+            </form>
+            <br>
+            <form onsubmit="phoneForm(event)">
+                <input required name="tel" type="tel" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" />
+                <br>
+            </form>
+            <br>
+            <form onsubmit="datetimeForm(event)">
+                <input required name="datetime-local" type="datetime-local" id="datetime-iocal" /><br>
+                <input type="submit" value="Submit" />
+            </form>
+
+>>>>>>> formToSchedulePhoneAppointments
             <output id="outputTag"></output>
         </section>
         <br />
