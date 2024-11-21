@@ -9,7 +9,11 @@ function convertCard(cardObject) {
     return cardString;
 }
 
+function display(message) {
+    document.write(message);
+}
+
 
 function output(message) {
-    output.innerHTML += message;
+    outputTag.innerHTML += message;
 }
