@@ -33,16 +33,6 @@
         display("Waiting for the greeting...");
     }
 
-    function submitForm(event) {
-
-        const inputs = event.target;
-        const nameinput = inputs[0];
-        const emailInput = inputs[1];
-        const email = emailInput.value;
-        document.write("Submitting form for " + email + "...");
-        setTimeout(serverResponse, 5000);
-    }
-
     function myFunction(callbackFunction) {
         callbackFunction();
     }
@@ -104,7 +94,7 @@
     }
 
     function getMessage(resolveValue) {
-        debogger;
+        debugger;
         display(resolveValue);
     }
 

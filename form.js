@@ -9,12 +9,19 @@ function myprocessForm(event) {
 
 
 function emailForm(event) {
+
     event.preventDefault();
     const emailForm = event.target;
     const emailInput = emailForm[0];
     const emailvalue = emailInput.value;
     output("Your appointment was submitted successfully.");
+    setTimeout(serverResponse, 5000);
 }
+
+function delayedGreeting() {
+    setTimeout(greeting, 5000);
+}
+
 
 function nameForm(event) {
     event.preventDefault();
@@ -31,6 +38,7 @@ function numberForm(event) {
     const numberInput = numberform[0];
     const numberValue = numberInput.value;
     output("Your appointment was submitted successfully.");
+
 }
 
 function datetimeForm(event) {
