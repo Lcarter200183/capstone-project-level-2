@@ -1,12 +1,11 @@
- debugger;
-
  function handleClick(event) {
-
+     debugger;
      const promise = fetch("https://opentdb.com/api.php?amount=1&category=12&difficulty=hard&type=multiple");
      promise.then(parseResponse);
  }
 
  function parseResponse(resolveValue) {
+     debugger;
      //THE RESOLVE VALUE WILL BE A FETCH OBJECT
      //THE TEXT METHOD EXTRACTS THE STRINGIFIED OBJECT
      const promise = resolveValue.text(); //fetch object
@@ -32,16 +31,4 @@
        <li>${answer}</li>
     </ol>`;
      output(trivia);
- }
-
- function extractResponse(resolveValue) {
-     debugger;
-     const promise = resolveValue.text();
-     promise.then(parseQotdResponse);
- }
-
- function parseQotdResponse(resolveValue) {
-     debugger;
-     const response = JSON.parse(resolveValue);
-
  }

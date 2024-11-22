@@ -15,5 +15,5 @@ function display(message) {
 
 
 function output(message) {
-    outputTag.innerHTML += message;
+    window.outputTag.innerHTML += message;
 }
