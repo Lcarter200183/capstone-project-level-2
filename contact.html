@@ -51,14 +51,26 @@
     <main class="container">
         <section class=" Contact-Us no-repeat center width100 height">
             <u><h2>Contact</h2></u>
+            <form onsubmit="myprocessForm(event)">
+                <label type="name" for="name">Name:</label><br>
+                <input required name="name" type="name" placeholder="Lydia Carter" id="name" />
+                <br>
+                <label type="email" for="email">Email:</label><br>
+                <input required name="email" type="email" placeholder="Lcarter200183@yahoo.com" id="email" />
+                <br>
+                <input type="submit" value="Submit" />
+            </form>
+            <br>
+
 
             <h3>Contact Customer Service</h3>
 
             <form onsubmit="emailForm(event)">
+
                 <input required name="email" type="email" placeholder="Email Input" id="email" />
                 <br>
-                <input name="text" type="text" placeholder="Summery of Issue" id="text" />
-
+                <br>
+                <input required name="text" type="text" placeholder="Summery of Issue" id="text" />
                 <br>
                 <input type="submit" value="Submit" />
             </form>
@@ -73,5 +85,4 @@
 
     <footer style="text-align: center;"><pre>Website created by <code>Lydia Carter</code></footer>
 </body>
-
 </html>
