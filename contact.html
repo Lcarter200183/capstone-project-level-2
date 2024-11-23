@@ -12,8 +12,7 @@
     </title>
 
     <style>
-        #text,
-        #email1 {
+        #text {
             width: 100%;
         }
         
@@ -55,58 +54,53 @@
             <u><h2>Contact</h2></u>
 
 
-            <h3>Contact Form</h3>
-            <form omsubmit="myprocessForm(event)">
-                <label type="name" for="name">Name:</label> <br>
-                <input name="name" type="name" placeholder="Lydia Carter" id="name" />
-                <br>
-                <label type="email1" for="email1">EMAIL:</label><br>
-                <input name="email1" type="email1" placeholder="LCarter200183@yahoo.com" id="email1" />
-            </form>
-            <br>
-            <br>
+            <h3>Contact </h3>
 
+
+            <br>
             <h3>Contact Customer Service</h3>
 
-            <form onsubmit="emailForm(event)">
-                <input required name="email" type="email" placeholder="Email Input" id="email" />
+            <form onsubmit="handleCustomerService(event)">
+                <label type="name" for="name">Name:</label> <br>
+                <input required name="name" type="name" placeholder="NameInput id=" name " />
+                <input required name="email " type="email " placeholder="Email Input " id="email " />
                 <br>
                 <br>
-                <input required name="text" type="text" placeholder="Summery of Issue" id="text" />
+                <input required name="text " type="text " placeholder="Summery of Issue " id="text " />
                 <br>
-                <input type="submit" value="Submit" />
+                <input type="submit " value="Submit " />
             </form>
             <br>
 
             <h3>Submit Appointment</h3>
 
-            <form onsubmit="nameForm(event)">
-                <input required name="firstName" type="name" placeholder="First Name" id="firstname" />
-                <input required name="lastName" type="name" placeholder="Last Name" id="lastname" />
+            <form onsubmit="nameForm(event) ">
+                <input required name="firstName " type="name " placeholder="First Name " id="firstname " />
+                <input required name="lastName " type="name " placeholder="Last Name " id="lastname " />
                 <br>
             </form>
             <br>
-            <form onsubmit="phoneForm(event)">
-                <input required name="tel" type="tel" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" />
+            <form onsubmit="phoneForm(event) ">
+                <input required name="tel " type="tel " placeholder="###-###-#### " pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} " id="tel " />
                 <br>
             </form>
             <br>
-            <form onsubmit="datetimeForm(event)">
-                <input required name="datetime-local" type="datetime-local" id="datetime-iocal" /><br>
-                <input type="submit" valu="Submit" />
+            <form onsubmit="datetimeForm(event) ">
+                <input required name="datetime-local " type="datetime-local " id="datetime-iocal " /><br>
+                <input type="submit " value="Submit " />
             </form>
 
 
 
 
-            <output id="outputTag"></output>
+            <output id="outputTag "></output>
         </section>
         <br />
         <hr />
     </main>
 
 
-    <footer style="text-align: center;"><pre>Website created by <code>Lydia Carter</code></footer>
+    <footer style="text-align: center; "><pre>Website created by <code>Lydia Carter</code></footer>
 </body>
 
 </html>

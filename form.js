@@ -1,21 +1,26 @@
-function myprocessForm(event) {
+function myProcessForm(event) {
+    debugger;
     event.preventDefault();
     const form = event.target;
     const input = form[0];
     const value = input.value;
-    output("Your appointment was submitted successfully.");
+    output("Your info was submitted. ");
+    const promise = makeRequest(getServerResponse);
+    promise.then(parseResponse);
 }
 
 
 
-function emailForm(event) {
-
+function handleCustomerService(event) {
+    debugger;
     event.preventDefault();
     const emailForm = event.target;
     const emailInput = emailForm[0];
     const emailvalue = emailInput.value;
-    output("Your appointment was submitted successfully.");
-    setTimeout(serverResponse, 5000);
+    output("Your message was submitted. ");
+    const promise = makeRequest("https://myServer.com");
+    promise.then(parseResponse);
+
 }
 
 function delayedGreeting() {
@@ -24,12 +29,14 @@ function delayedGreeting() {
 
 
 function nameForm(event) {
+    debugger;
     event.preventDefault();
     const form = event.target;
     const firstnameInput = form[0];
     const lastnameInput = form[1];
     const firstnamevalue = firstnameInput.value;
     output("Your appointment was submitted successfully.");
+
 }
 
 function numberForm(event) {
