@@ -1,10 +1,3 @@
-// function parseResponse(resolveValue) {
-//     debugger;
-//     const promise = resolveValue.test();
-//     promise.then(viewResponse);
-
-// }
-
 function parseResponse(resolveValue) {
     debugger;
     //THE RESOLVE VALUE WILL BE A FETCH OBJECT
@@ -13,9 +6,6 @@ function parseResponse(resolveValue) {
     const message = response.message;
     output(message);
 }
-
-
-
 
 function getServerResponse(resolve) {
     debugger;
@@ -32,40 +22,8 @@ function getServerResponse(resolve) {
 }
 
 
-
-
-// function myFunction(resolve) {
-//     debugger;
-//     setTimeout(serverResponse, 5000);
-//     display("Inside my myFunction");
-
-
-//     function serverResponse(resolve) {
-//         debugger;
-//         display("Form was successfully processed.");
-//         resolve("The promise is fulfilled.");
-//     }
-// }
-
 function makeRequest() {
     debugger;
     const promise = new Promise(getServerResponse);
     return promise;
 }
-
-// function getMessage(resolveValue) {
-//     debugger;
-//     display(resolveValue);
-// }
-
-// function serverResponse(resolve) {
-//     debugger;
-//     display("Successfully processed.");
-//     resolve("The promise is fulfilled");
-// }
-
-
-// function myFunction(resolve) {
-//     debugger;
-//     resolve();
-// }
