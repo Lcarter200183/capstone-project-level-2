@@ -1,9 +1,12 @@
 function myprocessForm(event) {
+    debugger;
     event.preventDefault();
     const form = event.target;
     const input = form[0];
     const value = input.value;
+    output("Your info is submitted for your appointment.");
 }
+
 
 function emailForm(event) {
     debugger;
